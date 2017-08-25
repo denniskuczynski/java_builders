@@ -29,4 +29,39 @@ curl localhost:8080/myresource
 References
 * https://projectlombok.org/
 * https://www.slideshare.net/vladimirtsukur/hot-and-spicy-java-with-lombok-live
+
+## auto-value
+
+Uses Google Auto Value code generation
+
+To Run:
+```
+cd auto-value
+mvn package
+java -cp target/classes:target/dependency/* com.example.Main
+curl localhost:8080/myresource
+```
+
+References
+* https://github.com/google/auto/blob/master/value/userguide/index.md
 * https://github.com/google/auto/blob/master/value/userguide/why.md
+
+## immutables
+
+Uses Immutables code generation
+
+To Run:
+```
+cd immutables
+mvn package
+java -cp target/classes:target/dependency/* com.example.Main
+curl localhost:8080/myresource
+```
+
+References
+* http://immutables.github.io/
+* https://github.com/immutables/immutables
+
+# More
+References
+* https://dzone.com/articles/lombok-autovalue-and-immutables
