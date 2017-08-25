@@ -21,6 +21,6 @@ public class MyResourceTest extends JerseyTest {
     public void testGetExampleModel() {
         final String responseMsg = target().path("myresource").request().get(String.class);
 
-        assertEquals("{\"name\":\"Hello World\"}", responseMsg);
+        assertEquals("{\"name\":\"Hello World\",\"favoriteNumbers\":[1]}", responseMsg);
     }
 }
