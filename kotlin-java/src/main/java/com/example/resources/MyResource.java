@@ -15,8 +15,9 @@ public class MyResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public ExampleModel getExampleModel() {
-        return new ExampleModel(
-            "Hello World",
-            Arrays.asList(1));
+        return new ExampleModel.Builder()
+            .name("Hello World")
+            .favoriteNumbers(Arrays.asList(1))
+            .build();
     }
 }
