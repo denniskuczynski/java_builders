@@ -1,4 +1,4 @@
-# Java test applications using Java Builder strategies such as code generation
+# Java test applications using different patterns for Java Value Classes -- looking specifically at reducing boilerplate, e.g. Builder patterns.
 
 ## plain-java
 
@@ -61,6 +61,22 @@ curl localhost:8080/myresource
 References
 * http://immutables.github.io/
 * https://github.com/immutables/immutables
+
+# kotlin-java
+
+Uses Kotlin for value objects
+
+To Run:
+```
+cd kotlin-java
+mvn package
+java -cp target/classes:target/dependency/* com.example.Main
+curl localhost:8080/myresource
+```
+
+References
+* https://kotlinlang.org
+* https://proandroiddev.com/from-autovalue-to-kotlin-data-class-2978dfb1ed5
 
 # More
 References

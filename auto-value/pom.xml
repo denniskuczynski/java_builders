@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>plain-java</artifactId>
+    <artifactId>auto-value</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>plain-java</name>
+    <name>auto-value</name>
 
     <dependencyManagement>
         <dependencies>
@@ -61,7 +61,7 @@
     </dependencies>
 
     <build>
-        <finalName>plain-java</finalName>
+        <finalName>auto-value</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
